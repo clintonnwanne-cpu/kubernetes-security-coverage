@@ -1,0 +1,37 @@
+{
+  "evaluated_at": "2026-10-08T12:00:00+00:00",
+  "inventory_complete": false,
+  "known_nodes": 4,
+  "counts": {
+    "covered": 1,
+    "missing": 1,
+    "stale": 1,
+    "unsupported": 1
+  },
+  "known_inventory_coverage_percent": 25.0,
+  "fleet_coverage_percent": null,
+  "orphan_observation_ids": [],
+  "rows": [
+    {
+      "node_id": "healthy",
+      "status": "covered",
+      "reason": "fresh healthy synthetic observation"
+    },
+    {
+      "node_id": "legacy",
+      "status": "unsupported",
+      "reason": "control not supported; remains in denominator"
+    },
+    {
+      "node_id": "new",
+      "status": "missing",
+      "reason": "no observation"
+    },
+    {
+      "node_id": "old",
+      "status": "stale",
+      "reason": "latest observation exceeds freshness window"
+    }
+  ],
+  "limitation": "Input completeness is asserted by the caller, not independently verified. Sensor health is not proof of enforcement."
+}

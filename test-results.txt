@@ -1,0 +1,17 @@
+test_bad_timestamp (test_coverage.CoverageTests) ... ok
+test_conflict (test_coverage.CoverageTests) ... ok
+test_duplicate_inventory (test_coverage.CoverageTests) ... ok
+test_empty (test_coverage.CoverageTests) ... ok
+test_future (test_coverage.CoverageTests) ... ok
+test_healthy (test_coverage.CoverageTests) ... ok
+test_incomplete (test_coverage.CoverageTests) ... ok
+test_missing (test_coverage.CoverageTests) ... ok
+test_orphan (test_coverage.CoverageTests) ... ok
+test_stale (test_coverage.CoverageTests) ... ok
+test_unhealthy (test_coverage.CoverageTests) ... ok
+test_unsupported_in_denominator (test_coverage.CoverageTests) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.001s
+
+OK
